@@ -25,5 +25,31 @@
         <li>item 2</li>
         <li>item 3</li>
       </ol>
+
+      <h1>Homepage</h1>
+      <!-- All of these with the a element are attributes of the element -->
+      <!-- href = hypertext reference and is the destination -->
+      <!-- target is the target which allows the link to be openned on a new tab -->
+      <!-- rel attribute using noopener is used for security due to it not allowing iteration between tabs -->
+      <!-- rel attribute using noreferrer is both privacy and security it adds the feature that the new tab cannot see the prior tabs address -->
+      <a href="https://www.theodinproject.com/about" target = "_blank" rel = "noopener noreferrer">About the odin project</a>
+
+      <!-- absolute links are Links to pages on other websites on the internet. -->
+      <!-- relative links are Links to pages located on our own websites. -->
+
+      <!-- space between links  -->
+      <p></p>
+
+      <!-- example of relative link  -->
+      <!-- about.html is in pages directory and the ./ is used to prevent future issues by specifying to your code that it should start looking for the file/directory relative to the current directory.  -->
+      <a href = "./pages/about.html">About</a>
+
+      <p></p>
+
+      <!-- example of adding an image to a webpage  -->
+      <!-- img element is void so no closing tag  -->
+      <!-- src is an attribute of the img element just like the href for a  -->
+      <!-- alt attribute is for if the image does not load and for screen readers to describe for visually impaired people  -->
+      <img src = "./images/image1.jpg" alt = "A picture of a dog" height = "310" width = "310">
 </body>
 </html>
